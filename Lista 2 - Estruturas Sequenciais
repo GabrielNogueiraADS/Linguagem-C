@@ -1,0 +1,275 @@
+
+/**
+#include <stdio.h>
+
+int main()
+{
+    float F = 0;
+    float C = 0;
+    
+    printf("Digite a temperatura em Celsius:\n");
+    scanf("%f", &C);
+    F=(9*C+160)/5;
+    printf("%.2f", F);
+
+    return 0;
+}
+**/
+
+// p/ num inteiro: %d
+// p/ num decimal: %f
+// p/ char: %c
+// p/ double float: %lf
+
+/**
+#include <stdio.h>
+
+int main()
+{
+    float distancia = 0;
+    float tempo = 0;
+    float velocidade = 0;
+    float litros = 0;
+    
+    printf("digite o tempo gasto na viagem:\n");
+    scanf("%f", &tempo);
+    printf("digite a velocidade média da viagem:\n");
+    scanf("%f", &velocidade);
+    distancia = tempo * velocidade;
+    litros = distancia/12;
+    printf("%.0f \n", velocidade);
+    printf("%.0f \n", tempo);
+    printf("%.0f \n", distancia);
+    printf("%.0f \n", litros);
+    
+    return 0;
+}
+**/
+
+/**
+#include <stdio.h>
+
+int main()
+{
+    float prestacao = 0;
+    float valor = 0;
+    float taxa = 0;
+    float tempo = 0;
+    
+    printf("digite o valor do produto em R$: \n");
+    scanf("%f", &valor);
+    printf("digite a taxa em %: \n");
+    scanf("%f", &taxa);
+    printf("digite o tempo em meses: \n");
+    scanf("%f", &tempo);
+    prestacao = valor + (valor*(taxa/100)*tempo);
+    printf("O valor do produto é: R$ %.2f \n", valor);
+    printf("A taxa cobrada é de %.2f % \n", taxa);
+    printf("O tempo é de %.0f meses \n", tempo);
+    printf("O valor da prestação é de R$ %.2f \n", prestacao);
+    
+    return 0;
+    
+}
+**/
+
+/**
+#include <stdio.h>
+
+int main()
+
+{
+    float a = 0;
+    float b = 0;
+    float base = 0;
+    
+    printf("Digite um valor para A: \n");
+    scanf("%f", &a);
+    printf("Digite um valor para B: \n");
+    scanf("%f", &b);
+    (base = a);
+    (a = b);
+    (b = base);
+    printf("O valor de A agora é: %.2f \n", a);
+    printf("O valor de B agora é: %.2f \n", b);
+    
+    return 0;
+    
+}
+**/
+
+/**
+#include <stdio.h>
+
+int main()
+
+{
+    float A = 0;
+    float B = 0;
+    float C = 0;
+    float D = 0;
+    
+    printf("Digite o valor de A: \n");
+    scanf("%f", &A);
+    printf("Digite o valor de B: \n");
+    scanf("%f", &B);
+    printf("Digite o valor de C: \n");
+    scanf("%f", &C);
+    printf("Digite o valor de D: \n");
+    scanf("%f", &D);
+    printf("A + B = %.0f \n", A + B);
+    printf("A * B = %.0f \n", A * B);
+    printf("A + C = %0.f \n", A + C);
+    printf("A * C = %0.f \n", A * C);
+    printf("A + D = %0.f \n", A + D);
+    printf("A * D = %0.f \n", A * D);
+    printf("B + C = %0.f \n", B + C);
+    printf("B * C = %0.f \n", B * C);
+    printf("B + D = %0.f \n", B * D);
+    printf("B * D = %0.f \n", B * D);
+    printf("C + D = %0.f \n", C * D);
+    printf("C * D = %0.f \n", C * D);
+    
+    return 0;
+}
+**/
+
+/**
+#include <stdio.h>
+
+int main()
+
+{
+    int valor = 0;
+    
+    printf("digite um valor inteiro: \n");
+    scanf("%d", &valor);
+    printf("o valor ao quadrado é: %d", valor*valor);
+    
+    return 0;
+}
+**/
+
+/**
+#include <stdio.h>
+
+int main()
+
+{
+    float cotacao = 0;
+    float dolares = 0;
+    
+    printf("Digite o valor da cotação: \n");
+    scanf("%f", &cotacao);
+    printf("Digite a quantidade de dólares: \n");
+    scanf("%f", &dolares);
+    printf("O valor em reais é: %.2f", cotacao*dolares);
+    
+    return 0;
+}
+**/
+
+/**
+#include <stdio.h>
+
+int main()
+
+{
+    float salario = 0;
+    float reajuste = 0;
+    float taxa = 0;
+    float novo_salario = 0;
+    
+    printf("Digite o salário: \n");
+    scanf("%f", &salario);
+    printf("Digite o percentual de reajuste: \n");
+    scanf("%f", &reajuste);
+    taxa = salario * (reajuste/100);
+    novo_salario = salario + taxa;
+    printf("O novo salário é: %.2f", novo_salario);
+    
+    return 0;
+    
+}
+**/
+
+/**
+#include <stdio.h>
+
+int main()
+
+{
+    int votos_candidato1 = 0;
+    int votos_candidato2 = 0;
+    int votos_candidato3 = 0;
+    int votos_nulos = 0;
+    int votos_embranco = 0;
+    int total = 0;
+    float votos_validos = 0;
+    float percentual_votosvalidos = 0;
+    float percentual_candidato1 = 0;
+    float percentual_candidato2 = 0;
+    float percentual_candidato3 = 0;
+    float percentual_nulos = 0;
+    float percentual_embranco = 0;
+    
+    printf("Digite a quantidade de votos para o candidato 1: \n");
+    scanf("%d", &votos_candidato1);
+    
+    printf("Digite a quantidade de votos para o candidato 2: \n");
+    scanf("%d", &votos_candidato2);
+    
+    printf("Digite a quantidade de votos para o candidato 3: \n");
+    scanf("%d", &votos_candidato3);
+    
+    printf("Digite a quantidade de votos nulos: \n");
+    scanf("%d", &votos_nulos);
+    
+    printf("Digite a quantidade de votos em branco: \n");
+    scanf("%d", &votos_embranco);
+    
+    total = votos_candidato1 + votos_candidato2 + votos_candidato3 + votos_nulos + votos_embranco;
+    votos_validos = votos_candidato1 + votos_candidato2 + votos_candidato3;
+    percentual_votosvalidos = (total / 100) * votos_validos;
+    percentual_candidato1 = (votos_validos / 100) * votos_candidato1;
+    percentual_candidato2 = (votos_validos / 100) * votos_candidato2;
+    percentual_candidato3 = (votos_validos / 100) * votos_candidato3;
+    percentual_nulos = (total / 100) * votos_nulos;
+    percentual_embranco = (total / 100) * votos_embranco;
+    
+    printf("O número total de eleitores é %d \n", total);
+    printf("O candidato 1 obteve %.2f por cento dos votos. \n", percentual_candidato1);
+    printf("O candidato 2 obteve %.2f por cento dos votos. \n", percentual_candidato2);
+    printf("O candidato 3 obteve %.2f por cento dos votos. \n", percentual_candidato3);
+    printf("O percentual de votos nulos foi de %.2f por cento. \n", percentual_nulos);
+    printf("O percentual de votos em branco foi de %.2f por cento. \n", percentual_embranco);
+    
+    return 0;
+    
+}
+**/
+
+
+/**
+#include <stdio.h>
+
+int main()
+
+{
+    float valor_real1 = 0;
+    float valor_real2 = 0;
+    
+    printf("Digite o primeiro valor real: \n");
+    scanf("%f", &valor_real1);
+    printf("Digire o segundo valor real: \n");
+    scanf("%f", &valor_real2);
+    printf("Adição: %f \n", valor_real1 + valor_real2);
+    printf("Subtração: %f \n", valor_real1 - valor_real2);
+    printf("Multiplicação: %f \n", valor_real1 * valor_real2);
+    printf("Divisão: %f \n", valor_real1 / valor_real2);
+    
+    return 0;
+    
+}
+
+**/
