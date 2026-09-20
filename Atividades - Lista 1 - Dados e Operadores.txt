@@ -1,0 +1,148 @@
+ATIVIDADES – LISTA 1 - DADOS E OPERADORES
+
+
+1)	Escreva os possíveis tipos de dados que se enquadram (inteiro, real, caractere, cadeia ou lógico). Se o dado se enquadrar em mais de um tipo, escreva todos eles.
+- 456	Inteiro, real		0	Inteiro, real 	
+Falso	Lógico		1,56	Real 	
+"F"	Caractere, cadeia 		- 1,56	Real 	
+"V"	Caractere, cadeia		34	Inteiro, real 	
+"0,87"	Cadeia 		45,8976	Real 	
+"0"	Cadeia, caractere		- 456	Inteiro, real 	
+"- 9,12"	Cadeia 		687	Inteiro, real 	
+"- 900"	Cadeia 		- 687	Inteiro, real 	
+"casa 8"	Cadeia 		- 99,8	Real 	
+"cinco"	Cadeia 		- 0,01	Real 	
+Verdadeiro	Lógico 		1000	Inteiro, real 	
+
+2)	Assinale um com um X os nomes INVÁLIDOS para uma variável. Justifique o motivo de serem inválidos.
+
+ 
+( x ) ENDEREÇO
+- “Ç” é um caractere especial.
+( x ) 21BRASIL
+- Não pode iniciar com números.
+( x ) FONE$COM 
+- “$” é um caractere especial.
+(	) NAMEUSER
+( x ) NOME_USUÁRIO – “Á” é um caractere especial.
+( x ) NOME*USUÁRIO
+- “Á” é um caractere especial; “*” não pode ser usado pois é reservado para funções específicas no código.
+3)	Informe:
+ 
+( x ) END*A-6
+- “*” e “-“ não podem ser usados pois são reservados para funções específicas no código.
+(	) CIDADE3 ( x ) #CABEC
+- “#” causa erro de sintaxe.
+(	) REAL
+( x ) REAL$
+- “$” é um caractere especial.
+( x ) SOBRE NOME
+-  O espaço em branco não é permitido. 
+•	Qual a primeira operação matemática a ser executada em cada um dos comandos abaixo.
+•	Qual é o resultado de R sabendo que A:=1, B:=2; C:= 4; D:=8
+ 
+a)	R := A + B – C
+- a) + ; resultado = -1
+b)	R := A + B / C ^ 2
+- b) ^ ; resultado = 1,125
+c)	R := A + B / C
+- c) / ; resultado = 1,5
+ 
+d)	R := A + B + C * D
+- d) * ; resultado = 35
+e)	R := A + D + B ^2 + C * 3
+- e) ^ ; resultado = 25
+f)	R := A * B / C * D
+- f) * ;  resultado = 0,0625 
+
+4)	Analise os seguintes blocos de código dos algoritmos abaixo e diga o que será impresso em tela ao serem executados:
+ 
+1.	X := 22
+- X recebe 22.
+
+2.	Y := 11
+- Y recebe 11.
+
+3.	escreva (Y)
+- imprime 11.
+
+4.	Y : = X
+- Y recebe valor que está em X.
+
+5.	escreva (X)
+- Y passa a valer 22.
+
+ 
+1.	X : = 1
+- X recebe 1.
+
+2.	Y : = X + 1
+- Y recebe o valor de X + 1 e passa a valer 2.
+
+3.	X : = Y + 1
+- X recebe valor de Y + 1 e passa a valer 3.
+
+4.	Y : = X + 1
+- Y recebe o valor de X + 1 e passa a valer 4.
+
+5.	escreva	(X)
+- imprime 3.
+
+6.	X := Y + 1
+- X recebe o valor de Y + 1 e passa a valer 5.
+
+7.	escreva	(X)
+- imprime 5.
+
+ 
+1.	X := (8/4)+(4/8)
+- X recebe
+8/4 = 2
+4/8 = 0,5
+X recebe 2,5.
+
+2.	Y :=	8/4+4/8
+
+- Y recebe
+8/4 = 2
+4/8 = 0,5
+Y recebe 2,5.
+
+3.	Z:= 112/64+12
+- Z recebe
+112 / 64 = 1,75
+1,75 + 12
+Z recebe 13,75.
+
+4.	escrevaL (X)
+- imprime 2,5.
+
+5.	escrevaL (Y)
+- imprime 2,5.
+
+6.	escrevaL (Z)
+
+- imprime 13,75. 
+
+
+5)	DETERMINE O ESTADO LÓGICO DAS EXPRESSÕES INDICANDO SE SÃO VERDADEIRAS OU FALSAS. CONSIDERE OS SEGUINTES VALORES X:=1; A:=3; B:=5; C:=8; D:=7
+ 
+a)	NAO(X>3) – VERDADEIRA.
+b)	(X<1) E NAO (B>D)
+- FALSA.
+c)	NAO(D<0) E (C>5)
+- VERDADEIRA.
+d)	NAO(X>3) OU (C<7)
+- VERDADEIRA.
+e)	NAO((D<0) OU (C>5))
+- FALSA.
+ 
+f)	(A>B) OU (C>B)
+- VERDADEIRA.
+g)	(X>=2)
+- FALSA.
+h)	(X<1) E (B>=D)
+- FALSA.
+i)	NAO(D>3) OU NAO(B<7)
+- VERDADEIRA.
+j)	(A>B) OU NAO(C>B) – FALSA.
